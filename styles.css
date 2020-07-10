@@ -292,7 +292,7 @@ footer {
         float:left;
     }
 
-    .nav li a {
+    .nav li p{
         background-color:#000;
         color:#fff;
         text-decoration:none;
@@ -324,7 +324,7 @@ footer {
         top:0px;
     }
 
-    
+
     /*section*/
 
     section {
