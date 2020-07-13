@@ -93,6 +93,15 @@ ul, ol {
     float:left;
 }
 
+.nav li p {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    letter-spacing: 2px;
+    display:block;
+}
+
 .nav li a {
     background-color:#000;
     color:#fff;
@@ -202,4 +211,210 @@ footer {
     padding: 3%;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 100%;
+        background: black;
+        position: relative;
+        height: 250px;
+        overflow: hidden;
+    }
+    
+    header nav {
+        width: 100%;
+    }
+    
+    header .bg {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.459);
+    }
+    
+    header .bg img {
+        position: absolute;
+        margin: auto;
+        top: 0px;
+        width: 100%;
+        opacity: 0.5;
+        left: 0;
+        right: 0;
+    }
+    
+    header .bg .pp {
+        position: absolute;
+        z-index: 1000;
+        width: 100px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 80px;
+        
+        border: none;
+    }
+    
+    header .bg .pp img {
+        position: absolute;
+        opacity: 1;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    header .bg p {
+        font-size: 20px;
+        position: relative;
+        top: 200px;
+        width: 100%;
+        padding: 2%;
+        background: rgba(44, 44, 44, 0.52);
+        z-index: 3;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-style: normal;
+        font-weight: 900;
+    }
+    
+    a {
+        color: yellow
+    }
+    
+    /*menu*/
+    
+    nav {
+        padding: 2%;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: fixed;
+        z-index: 3000;
+        background: rgba(0, 0, 0, 0.664);
+    }
+    
+    ul, ol {
+        list-style:none;
+        z-index: 200;
+    }
+    
+    .nav > li {
+        float:left;
+    }
+    
+    .nav li p {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        letter-spacing: 2px;
+        display:block;
+    }
+    
+    .nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        letter-spacing: 2px;
+        display:block;
+    }
+    
+    .nav li a:hover {
+        background-color:#434343;
+    }
+    
+    .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+    
+    .nav li:hover > ul {
+        display:block;
+    }
+    
+    .nav li ul li {
+        position:relative;
+    }
+    
+    .nav li ul li ul {
+        right:-140px;
+        top:0px;
+    }
+    
+    /*section*/
+    
+    section {
+        width: 90%;
+         margin: auto;
+         padding: 5%;
+         margin-top: 30px;
+         text-align: justify;
+    }
+    
+    section h1 {
+        letter-spacing: 5px;
+        top: 0;
+        height: 80px;
+        line-height: 50px;
+        background: white;
+        border-bottom: 1px solid;
+        padding: 3% 0;
+        text-align: center;
+    }
+    
+    section p {
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    
+    /*form*/
+    
+    
+    input[type="text"] {
+        font-size: 15px;
+        color: #333;
+        text-align: left;
+        letter-spacing: 1px;
+        padding: 14px 10px;
+        width:93%;
+        display:inline-block;
+        box-sizing: border-box;
+           border: none;
+        outline: none;
+        background: transparent;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    input[type="email"] {
+        font-size: 15px;
+        color: #333;
+        text-align: left;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        padding: 14px 10px;
+        width:93%;
+        display:inline-block;
+        box-sizing: border-box;
+           border: none;
+        outline: none;
+        background: transparent;
+        font-family: 'Raleway', sans-serif;
+    }
+    .input{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 3px 10px;
+        border: 1px solid #ddd;
+        background: #fff;
+    }
+    
+    
+    /*footer*/
+    
+    footer {
+        background: black;
+        width: 100%;
+        position: absolute;
+        padding: 3%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
 }
