@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    
+    <title>Datos null y undefined en JavaScript</title>
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <section>
+        <h1>Datos null y undefined en JavaScript</h1>
+        <br>
+        <p>Veamos un ejemplo divertido: </p>
+<pre>
+    (nombre is <span class="etiqueta">undefined</span>)
+</pre>
+    <p> <b>Tu: </b> ¿Qué es nombre?
+    <br>
+    <b>JavaScript: </b>  ¿nombre? ¿qué es un  nombre? No sé de qué hablas, ni siquiera has mencionado nombre antes. ¿No te referirás a otro lenguaje?</p>
+<pre>
+    nombre = <span class="etiqueta">null</span>;
+</pre>
+    <p> <b>Tu: </b> ¿Qué es nombre?
+    <br>
+    <b>JavaScript: </b>  no lo sé.</p>
+<hr>
+    <div class="espacio">
+        <p>La clave para entender la diferencia radica en la noción de existencia. Si una variable es:</p>
+        <br>
+        <ul class="dots" >
+            <li><p><b>undefined:</b> para Javascript, no existe. O bien no ha sido declarada o jamás se le asignó un valor.</p></li>
+            <li><p><b>null:</b> para Javascript, la variable existe. En algún momento, explícitamente, la variable se estableció a null.</p></li>
+        </ul>
+    </div>
+<div class="espacio">
+    <button id="un">Unidefined</button>
+    <button id="nu">Null</button>
+</div>
+    </section>
+    <img id="gifu" src="./../../../img/like.gif" alt="">
+    <script src="./script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    
+    <title>Unobtrusive Javascript</title>
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <section>
+        <h1>Unobtrusive Javascript</h1>
+        <br>
+        <p>Tradicionalmente, se ha escrito el javascript en línea, como parte del contenido de un 
+             documento HTML. Por ejemplo, utilizaré u botón para generar un alert:</p>
+<pre>
+    <span class="etiqueta">&lt;button</span> <span class="argumento">onclick=</span><span class="valor">"mostrarAlert();"</span> <span class="etiqueta">&gt;</span> Clickeame! <span class="etiqueta">&lt;button/&gt;</span>
+</pre>
+<div class="espacio">
+    <button onclick="mostrarAlert();">Clikeame!</button>
+</div>
+        <p>Pero el propósito de HTML es describir la estructura de un documento, no su 
+            comportamiento programático. Combinar los dos afecta negativamente la facilidad de
+             mantenimiento, a la accesibilidad y a la velocidad de carga del documento
+              (los archivos JavaScript externos suelen guardarse en caché para posteriores visitas);
+              por lo tanto es una mala práctica. Lo recomendable es enlazar un archivo externo 
+              que contenga código JavaScript desde el HTML:</p>
+<pre>
+    <span class="etiqueta">&lt;script</span> <span class="argumento">type=</span> <span class="valor">"text/javascript"</span> <span class="argumento">src=</span> <span class="valor">"archivoJavascript.js"</span> <span class="etiqueta">></script></span>
+</pre>
+        <p>La solución no invasiva al código superior podría ser la siguiente: Definir una función genere un alert desde 
+            el archivo.js y mandarlo a llamar con dicha función mediante un evento concreto (evento click)</p>
+        </div>
+        <div class="espacio">
+            <button id="boton">Clikeame! (tengo otra función)</button>
+        </div>
+    </section>
+    <img id="gifu" src="./../../../img/like.gif" alt="">
+    <script src="./script.js"></script>
+</body>
+</html>

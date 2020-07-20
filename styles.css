@@ -10,6 +10,7 @@
 
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 header {
@@ -18,6 +19,24 @@ header {
     position: relative;
     height: 410px;
     overflow: hidden;
+}
+
+
+div.retro a i {
+    font-size: 30px;
+}
+
+div.retro {
+    padding: 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: fixed;
+    z-index: 300000;
+    background: rgba(20, 24, 80, 0.966);
+    transition: .4s;
+}
+
+div.retro:hover {
+    padding: 1% 3%;
 }
 
 header nav {
@@ -71,7 +90,7 @@ header .bg p {
 }
 
 a {
-    color: yellow
+    color: rgb(0, 81, 255)
 }
 
 /*menu*/
@@ -81,8 +100,11 @@ nav {
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
     z-index: 3000;
-    background: rgba(0, 0, 0, 0.664);
+    background: rgba(0, 0, 0, 0.568);
 }
+
+
+
 
 ul, ol {
     list-style:none;
@@ -133,6 +155,7 @@ ul, ol {
     right:-140px;
     top:0px;
 }
+
 
 /*section*/
 
@@ -418,4 +441,66 @@ footer {
         text-align: center;
         color: rgb(255, 255, 255);
     }
+}
+
+pre {
+    margin-bottom: 50px;
+    margin-top: 50px;
+     font-family: 'Inconsolata', monospace; 
+     line-height: 20px; color: white; 
+     background: rgb(30, 30, 31); 
+     font-size: 16px; 
+     border: 1px solid black; 
+     padding: 2%;
+}
+
+span.valor {
+    color: rgb(255, 226, 64);
+    font-style: italic;
+}
+
+span.etiqueta {
+    color: rgb(169, 255, 152);
+}
+
+span.argumento {
+    color: rgb(243, 119, 119);
+}
+
+.espacio {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 2%;
+    background: white;
+    border: 1px solid rgb(0, 68, 255);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#gifu {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    right: -400px;
+    z-index: -1;
+    opacity: 0.4;;
+    transition: 1s;
+}
+
+.gifanimation {
+    transform: rotateX(360deg) translateX(-400px);
+}
+
+section ul.dots li {
+    list-style: circle;
+    margin-left: 70px;
+}
+ 
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
