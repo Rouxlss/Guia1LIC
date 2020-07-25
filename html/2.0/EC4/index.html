@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    
+    <title>Investigación complementaria 1</title>
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <section>
+
+        <h1>Objeto Math{}</h1>
+
+        <!-- Propiedad -->
+        <h2>.abs()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.abs(x)
+</pre>
+        <p>Como abs() es un método estático de Math, deberías siempre usar Math.abs(), 
+            en lugar de un método de un objeto Math que crees (Math no es un constructor).</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="abs" >Click</button>
+
+        <hr>
+
+        <!-- Propiedad -->
+        <h2>.round()</h3>
+            <b>Sintaxis</b>
+<pre>
+    Math.round(x)
+</pre>
+        <p>Si la porción fraccionaría del número es 0.5 o mayor, el argumento es
+                redondeado al siguiente número entero superior. Si la porción de la fracción 
+                del número es menor a 0.5, el argumento es redondeado al siguiente número 
+                entero inferior.
+        </p>
+        <p>
+            Debido a que round() es un método estático de Math, siempre se debe 
+            utilizar como  Math.round(),  en vez de un método del objeto Math que ha creado.
+                (Math no es un constructor)
+        </p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="round" >Click</button>
+
+        <hr>
+    <!-- Propiedad -->
+    <h2>.ceil()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.ceil(x)
+</pre>
+        <p>La función Math.ceil() devuelve el entero mayor o igual más próximo a un número dado.</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="ceil" >Click</button>
+
+        <hr>
+    <!-- Propiedad -->
+    <h2>.floor()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.floor(x)
+</pre>
+        <p>La función Math.floor() Devuelve el máximo entero menor o igual a un número.</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="floor" >Click</button>
+
+        <hr>
+    <!-- Propiedad -->
+    <h2>.exp()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.exp(x)
+</pre>
+        <p>La función Math.exp() devuelve el exponencial, donde x es el argumento, y e es
+             El número de Euler (también conocido como la constante de Napier),
+              la base de los algoritmos naturales.</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="exp" >Click</button>
+
+        <hr>
+    <!-- Propiedad -->
+    <h2>.log()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.log(x)
+</pre>
+        <p>La función Math.log() devuelve la base neutral de un número (base e)</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="log" >Click</button>
+
+        <hr>
+    <!-- Propiedad -->
+    <h2>.random()</h3>
+        <b>Sintaxis</b>
+<pre>
+    Math.random()
+</pre>
+        <p>La función Math.random() retorna un punto flotante, un número pseudo-aleatorio 
+            dentro del rango [0, 1). Esto es, desde el 0 (Incluido) hasta el 1
+             pero sin incluirlo (excluido), el cual se puede escalar hasta el 
+             rango deseado. La implementación selecciona la semilla inicial hasta 
+             el algoritmo que genera el número aleatorio; este no puede ser elegido 
+             o cambiado por el usuario.</p>
+    
+        <b>Ejemplo:</b>
+        <div class="espacio"></div>
+        <button class="random" >Click</button>
+
+        <hr>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

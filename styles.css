@@ -30,6 +30,7 @@ div.retro {
     padding: 1%;
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
+    top: 0;
     z-index: 300000;
     background: rgba(20, 24, 80, 0.966);
     transition: .4s;
@@ -164,18 +165,24 @@ section {
      margin: auto;
      padding: 2%;
      margin-top: 30px;
-     text-align: justify;
+     text-align: left;
 }
 
 section h1 {
     letter-spacing: 5px;
     top: 0;
+    margin-bottom: 50px;
     height: 170px;
     line-height: 200px;
     background: white;
     border-bottom: 1px solid;
     padding: 3% 0;
     text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
 }
 
 section p {
@@ -246,6 +253,10 @@ footer {
         overflow: hidden;
     }
     
+    body {
+        overflow-x: hidden;
+    }
+
     header nav {
         width: 100%;
     }
@@ -296,10 +307,6 @@ footer {
         text-align: center;
         font-style: normal;
         font-weight: 900;
-    }
-    
-    a {
-        color: yellow
     }
     
     /*menu*/
@@ -376,17 +383,19 @@ footer {
         letter-spacing: 5px;
         top: 0;
         height: 80px;
-        line-height: 50px;
+        line-height: 30px;
         background: white;
-        border-bottom: 1px solid;
+        border-bottom: 0px ;
         padding: 3% 0;
         font-size: 19px;
         text-align: center;
     }
     
     section p {
+        text-align: left;
         line-height: 30px;
-        letter-spacing: 2px;
+        letter-spacing: 0px;
+        margin-bottom: 20px;
     }
     
     /*form*/
@@ -441,6 +450,14 @@ footer {
         text-align: center;
         color: rgb(255, 255, 255);
     }
+
+
+    pre {
+        display: none;
+    }
+
+    
+
 }
 
 pre {
@@ -450,6 +467,7 @@ pre {
      line-height: 20px; color: white; 
      background: rgb(30, 30, 31); 
      font-size: 16px; 
+     width: 100%;
      border: 1px solid black; 
      padding: 2%;
 }
@@ -474,15 +492,17 @@ span.argumento {
 }
 
 button {
+    position: relative;
     padding: 2%;
     background: white;
     border: 1px solid rgb(0, 68, 255);
     cursor: pointer;
     font-size: 20px;
+    margin-right: 50px;
 }
 
 #gifu {
-    position: absolute;
+    position: fixed;
     display: block;
     bottom: 0px;
     right: -400px;
@@ -503,4 +523,40 @@ section ul.dots li {
 hr {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+table {
+    width: 100%;
+    margin: auto;
+   background: white;
+   border: rgb(211, 209, 209) solid 1px;
+   padding: 1% 2%;
+   margin-bottom: 50px;
+}
+
+table thead {
+    color: rgb(131, 129, 129); 
+    margin-bottom: 1px;
+}
+
+table thead tr th, table tfoot tr th{
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+table tbody {
+    color: rgb(43, 43, 43);
+}
+
+table tbody tr th:first-child {
+    text-align: left;
+}
+
+table tbody tr th:last-child ,table thead tr th:last-child, table tfoot tr th:last-child{
+    text-align: right;
+}
+
+table tbody tr th {
+    padding: 2%;
 }
