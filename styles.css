@@ -245,6 +245,11 @@ footer {
 
 
 @media screen and (max-width: 500px) {
+
+    b.sintax {
+        display: none;
+    }
+
     header {
         width: 100%;
         background: black;
