@@ -12,12 +12,6 @@ decimal.addEventListener('click', ()=>{
 
 escribirNumero();
 
-inputOpc.addEventListener('keypress', function(){
-    if (e.keyCode === 46 && this.value.split('.').length === 2) {
-        return false;
-    }
-})
-
 MC.addEventListener('click', ()=> {
     numAlmacenado1=0;
     numAlmacenado2=0;

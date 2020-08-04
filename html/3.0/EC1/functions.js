@@ -1,29 +1,23 @@
 var borrar = document.querySelector('.backspace');
 var inputOpc = document.querySelector('.inputOpc');
 var alt = document.querySelector('.alt');
-
 var numero = document.querySelectorAll('.num');
 var suma = document.querySelector('.plus');
 var resta = document.querySelector('.minus');
 var multiplicacion = document.querySelector('.mult');
 var division = document.querySelector('.division');
-
 var mod = document.querySelector('.mod');
 var raiz = document.querySelector('.sqrt');
 var cuadrado = document.querySelector('.cuadrado');
 var inversa = document.querySelector('.inv');
-
 var mensaje = document.querySelector('.lista p');
-
 var MC = document.querySelector('.mc');
 var MS = document.querySelector('.ms');
 var MR = document.querySelector('.mr');
 var MPLUS = document.querySelector('.mplus');
 var CE = document.querySelector('.ce');
 var C = document.querySelector('.c');
-
 var equals = document.querySelector('.equals');
-
 var numAlmacenado1=0, numAlmacenado2=0, storage = null, i=0, memoryNumber=0;
 var opc = "";
 var msg = "";

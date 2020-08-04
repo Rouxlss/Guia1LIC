@@ -190,6 +190,10 @@ section p {
     letter-spacing: 2px;
 }
 
+section img {
+    width: 100%;
+}
+
 /*form*/
 
 
