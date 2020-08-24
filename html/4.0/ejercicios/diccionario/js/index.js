@@ -85,7 +85,7 @@ const limpiarLista = () => {
 input.addEventListener('keyup', ()=> {
 
     limpiarLista();
-    regEx = new RegExp(`${input.value}`, 'gim');
+    regEx = new RegExp(`${input.value}`, 'im');
     console.log(regEx);
     if((input.value).length == 0){
         textarea.value = '';
@@ -97,7 +97,7 @@ input.addEventListener('keyup', ()=> {
         }
     }
     select.innerHTML = options;
-    select.size = 25;
+    select.size = (select.lenght)+1;
 
     opciones = document.querySelectorAll('.select select option');
     mostrarDefinicion();
