@@ -97,7 +97,7 @@ input.addEventListener('keyup', ()=> {
         }
     }
     select.innerHTML = options;
-    select.size = (select.length)+1;
+    select.size = 25;
 
     opciones = document.querySelectorAll('.select select option');
     mostrarDefinicion();
