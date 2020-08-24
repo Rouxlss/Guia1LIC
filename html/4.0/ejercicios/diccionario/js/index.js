@@ -9,11 +9,7 @@ var opciones;
 var textarea = document.querySelector('textarea');
 
 var palabras = [
-    /*10*/'Abstraction', 'Acoplamiento', 'Agregación', 'Algoritmo', 'Ambito de clase','Análisis', 'Aplicación', 'Array','Egolatría','Criollo',
-    /*20*/'Elucubración', 'Calificación', 'Capacidad','Evaluación final','Evidencias','Examen oral','Incidentes críticos','Instructor','Interés','Mentoría',
-    /*30*/ 'Monitorización','Tutor','Temblor','Prueba objetiva','Profesores noveles','Metodo','Atributos','Glosario','Galeón','Galaxia',
-    /*40*/ 'país','paciencia','zafiro','zaguán','tamarindo','tambor','vacaciones','vacuna','valeriana','nacer',
-    /*50*/ 'nación','teclado','agua','Voz','Testa Motors','Lenguaje de programacion','Depurador','Diseño', 'Encapsulamiento', 'Sintaxis'
+    'Abstraction', 'Acoplamiento', 'Agregación', 'Algoritmo', 'Ambito de clase','Análisis', 'Aplicación', 'Array','Egolatría','Criollo','Elucubración', 'Calificación', 'Capacidad','Evaluación final','Evidencias','Examen oral','Incidentes críticos','Instructor','Interés','Mentoría','Monitorización','Tutor','Temblor','Prueba objetiva','Profesores noveles','Metodo','Atributos','Glosario','Galeón','Galaxia','país','paciencia','zafiro','zaguán','tamarindo','tambor','vacaciones','vacuna','valeriana','nacer','nación','teclado','agua','Voz','Testa Motors','Lenguaje de programacion','Depurador','Diseño', 'Encapsulamiento', 'Sintaxis'
 ];
 
 var definiciones = [
@@ -101,7 +97,7 @@ input.addEventListener('keyup', ()=> {
         }
     }
     select.innerHTML = options;
-    select.size = select.length;
+    select.size = (select.length)+1;
 
     opciones = document.querySelectorAll('.select select option');
     mostrarDefinicion();
