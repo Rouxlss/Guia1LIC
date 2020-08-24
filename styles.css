@@ -577,3 +577,22 @@ table tbody tr th:last-child ,table thead tr th:last-child, table tfoot tr th:la
 table tbody tr th {
     padding: 2%;
 }
+
+input.campo {
+    outline: auto;
+    outline-color: rgb(59, 29, 194);
+}
+
+form.select select {
+    width: 100%;
+}
+
+textarea.dic {
+    border: 2px solid rgb(59, 29, 194);
+    border-radius: 5px;
+    padding: 2%;
+    resize: none;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
