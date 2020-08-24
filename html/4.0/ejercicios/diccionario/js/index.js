@@ -58,6 +58,7 @@ var definiciones = [
     'Liquido vita lapra la vida','Sonido que emite una persona al hablar','Empresa de Elon Musk',
     'Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para, de esa forma, crear programas que controlen el comportamiento físico y lógico de una máquina.',
     'Herramienta para ayudar a la localización de errores de un programa',
+    'Actividad de definir como se debe estructurar e implementar un programa.',
     'Localización y protección de las características internas y estructura de un objeto',
     'Un conjunto de reglas que especifica la composición de programas a partir de palabras reservadas, símbolos y caracteres. '
 ]
