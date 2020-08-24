@@ -13,7 +13,7 @@ var palabras = [
     /*20*/'Elucubración', 'Calificación', 'Capacidad','Evaluación final','Evidencias','Examen oral','Incidentes críticos','Instructor','Interés','Mentoría',
     /*30*/ 'Monitorización','Tutor','Temblor','Prueba objetiva','Profesores noveles','Metodo','Atributos','Glosario','Galeón','Galaxia',
     /*40*/ 'país','paciencia','zafiro','zaguán','tamarindo','tambor','vacaciones','vacuna','valeriana','nacer',
-    /*50*/ 'nación',
+    /*50*/ 'nación','teclado','agua','Voz','Testa Motors','Lenguaje de programacion','Depurador','Diseño', 'Encapsulamiento', 'Sintaxis'
 ];
 
 var definiciones = [
@@ -58,6 +58,12 @@ var definiciones = [
     'Planta de tallo recto y hojas puntiagudas.',
     'Salir una persona o animal del vientre de su madre. Salir un animal de un huevo o una planta de una ...',
     'Grupo de personas que viven en un mismo territorio y con un mismo gobierno',
+    'Periferico de una conputadora',
+    'Liquido vita lapra la vida','Sonido que emite una persona al hablar','Empresa de Elon Musk',
+    'Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para, de esa forma, crear programas que controlen el comportamiento físico y lógico de una máquina.',
+    'Herramienta para ayudar a la localización de errores de un programa',
+    'Localización y protección de las características internas y estructura de un objeto',
+    'Un conjunto de reglas que especifica la composición de programas a partir de palabras reservadas, símbolos y caracteres. '
 ]
 
 // for(let i = 0;i<palabras.length;i++) {
