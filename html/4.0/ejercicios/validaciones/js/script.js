@@ -10,8 +10,8 @@ valido = false;
 var x = 0;
 
 select.addEventListener('change', ()=> {
+    input.value = '';
     if(select.value == 0){
-        input.value = '';
         input.placeholder = '###.###.###.###';
         console.log('ip');
         input.addEventListener('keyup', ()=> {
@@ -21,7 +21,6 @@ select.addEventListener('change', ()=> {
             validarIP();
         });
     }else if (select.value == 1){
-        input.value = '';
         input.placeholder = 'protocolo://www.nombredelsitio.com';
         console.log('url');
         input.addEventListener('keyup', ()=> {
@@ -31,7 +30,6 @@ select.addEventListener('change', ()=> {
             validarWEB();
         });
     }else if (select.value == 2){
-        input.value = '';
         input.placeholder = 'alguien@example.com';
         console.log('correo');
         input.addEventListener('keyup', ()=> {

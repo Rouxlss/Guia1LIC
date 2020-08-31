@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <title>Potencia</title>
+    <script src="./../../../js/functions.js"></script>
+</head>
+<body>
+
+    <!-- Realice una aplicación orientada a objetos llamada potencia. Su aplicación debe crear una clase
+    utilizando funciones, en donde las propiedades deben ser tres: la base y la potencia que deben
+    obtener sus valores de dos argumentos enviados a la definición de la función que hará las
+    veces de la clase. Una tercera propiedad para obtener la potencia de elevar la base a la
+    potencia recibida. Su clase debe poseer dos métodos, uno para retornar el cálculo de la
+    potencia con las propiedades de la clase y otro para mostrar en la página web mediante el uso
+    de la propiedad innerHTML el resultado del cálculo de la potencia haciendo uso del método
+    para tal propósito. Debe realizar una interfaz de formulario apropiada para este problema y
+    no usar cuadros prompt para obtener los datos.  -->
+
+
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <section>
+        <h1>Potencia</h1>
+        
+        <form action="javascript:void(0)" class="dissapear formStyle" >
+            <div class="flex">
+                <div class="input-field">
+                    <label for="base">Base:</label>
+                    <input type="number" id="base" class="campo short"> 
+                </div>
+                <div class="input-field">
+                    <label for="potencia">Potencia:</label>
+                    <input type="number" id="potencia" class="campo short"> 
+                </div>
+            </div>
+            <div class="espacio"></div>
+            <button class="calcular">Calcular</button>
+        </form>
+
+        <div class="mostrarResultado">
+            
+        </div>
+
+    </section>
+    <div class="espacio"></div>
+    
+    <script src="./js/potencia.js"></script>
+    
+</body>
+</html>

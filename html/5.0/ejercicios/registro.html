@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <title>Potencia</title>
+    <script src="./../../../js/functions.js"></script>
+</head>
+<body>
+
+    <!--Cree una clase llamada miembro que sirva para registrar usuarios en un sitio web. El usuario
+    debe ingresar cierta información básica, (Nombres, apellidos, email, password [8 caracteres
+    min], confirmar password, fecha de nacimiento) al simular el envío de los datos un script JS
+    debe almacenar la información ingresada en las propiedades del objeto registro que deben
+    coincidir con los nombres o ids de los campos del formulario. Además de esos campos, debe
+    existir una propiedad identificadora en el objeto que deberá crear de la siguiente forma: las
+    iniciales de los dos apellidos (si sólo tiene un apellido duplicar la primera letra del primer
+    apellido) concatenadas con el año de registro y un número aleatorio de 4 cifras que deberá
+    crear mediante el uso del método random del objeto Math. Investigue, si es necesario. Al final,
+    después de simular el envío de los datos debe mostrar todas las propiedades del objeto y sus
+    valores asignados en una tabla con estilos agregada al formulario actual.  -->
+
+
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <section>
+        
+        <form action="javascript:void(0)" class="dissapear formStyle" >
+            <div class="input-field">
+                <label for="nombres">Nombres:</label>
+                <input required type="text" id="nombres" class="campo short"> 
+            </div>
+            <div class="input-field">
+                <label for="apellidos">Apellidos:</label>
+                <input required type="text" id="apellidos" class="campo short"> 
+            </div>
+            <div class="input-field">
+                <label for="email">eMail:</label>
+                <input required type="email" id="email" class="campo short"> 
+            </div>
+            <div class="input-field">
+                <label for="password">Contraseña:</label>
+                <input required type="password" id="password" class="campo short"> 
+            </div>
+            <div class="input-field">
+                <label for="confirmPassword">Confirmar contraseña:</label>
+                <input required type="password" id="confirmPassword" class="campo short"> 
+            </div>
+            <div class="input-field">
+                <label for="fechaNac">Fecha de nacimiento</label>
+                <input required type="date" id="fechaNac" class="campo short"> 
+            </div>
+            <div class="espacio"></div>
+            <button type="submit" class="registrar radius">Registrar</button>
+        </form>
+
+        <div class="mostrarResultado">
+            
+        </div>
+
+    </section>
+    <div class="espacio"></div>
+    
+    <script src="./js/registro.js"></script>
+    
+</body>
+</html>

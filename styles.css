@@ -196,8 +196,7 @@ section img {
 
 /*form*/
 
-
-input[type="text"] {
+input[type="text"],input[type="email"],input[type="number"], input[type="date"], input[type="password"]{
 	font-size: 15px;
 	color: #333;
     text-align: left;
@@ -212,21 +211,6 @@ input[type="text"] {
 	font-family: 'Raleway', sans-serif;
 }
 
-input[type="email"] {
-	font-size: 15px;
-	color: #333;
-    text-align: left;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    padding: 14px 10px;
-	width:93%;
-	display:inline-block;
-    box-sizing: border-box;
-   	border: none;
-    outline: none;
-    background: transparent;
-	font-family: 'Raleway', sans-serif;
-}
 .input{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -595,4 +579,36 @@ textarea.dic {
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
+}
+
+.formStyle {
+    width: 80%;
+    padding: 1% 3%;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.input-field {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+.input-field label {
+    position: absolute;
+    top: -20px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.radius:hover {
+    background: rgb(21, 72, 182);
+    color: white;
 }
