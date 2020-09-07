@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <title>Gasolinera</title>
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <div class="controls green">
+        <form action="">
+            <p>Tipos de gasolina</p>
+            <div class="input-group2">
+                <label for="regular">Regular</label>
+                <input type="radio" value="4.27" id="regular" class="radio" name="gasolina">
+                <label for="especial">Especial</label>
+                <input type="radio" value="4.05"  id="especial" class="radio"  name="gasolina">
+                <label for="diesel">Diesel</label>
+                <input type="radio" value="3.96"  id="diesel" class="radio"  name="gasolina">
+            </div>
+            <p>Galones</p>
+            <div class="input-group2">
+                <input type="number" max="150" min="0.05" step="0.05" id="galones">
+            </div>
+        </form>
+    </div>
+    <div class="output">
+        <div class="input-group2">
+            <label for="0">Precio a pagar:</label>
+            <input type="text" class="precio" readonly>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

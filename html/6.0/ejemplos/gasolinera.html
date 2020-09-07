@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Gasolinera de soyapango</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/pizza.css" />
+</head>
+<body>
+<header id="box">
+ <h1 id="flashlight">
+ <span id="flash">Gasolinera de</span>
+ <span id="light">Soyapango</span>
+ </h1>
+</header>
+<form action="javascript:void(0);" class="demoForm" id="pizzaForm">
+ <fieldset>
+ <legend>Menu de compra</legend>
+ <p>Tipo:
+ <label><input type="radio" name="size" value="3.96" id="diesel" checked="checked"
+/>Diesel </label>
+ <label><input type="radio" id="regular" name="size" value="4.05" />Regular</label>
+ <label><input type="radio" name="size" id="especial" value="4.27" />Especial</label>
+ <input type="hidden" name="sz_tot" value="0.00" />
+ </p>
+ <p id="pizza_toppings"><label>Cantidad de galones:</label>
+    <select id="cantidad" name="cantidad">
+
+      </select>
+ </p>
+ <p>
+ <label>
+ Total: $<input type="text" name="total" class="num" value="0.00"
+readonly="readonly" />
+ </label>
+ </p>
+ <p>
+ <input type="submit" name="submit" id="sub" onclick="agregar()" value="Submit" />
+ </p>
+ </fieldset>
+</form>
+<script src="js/gasolinera.js"></script>
+</body>
+</html>

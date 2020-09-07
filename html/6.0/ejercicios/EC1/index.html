@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../../../styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <div class="controls">
+        <form action="">
+            <p>Crear tabla</p>
+            <div class="input-group2">
+                <label for="createRows">Filas</label>
+                <input type="number" id="createRows">
+            </div>
+            <div class="input-group2">
+                <label for="createColumns">Columnas</label>
+                <input type="number" id="createColumns">
+            </div>
+            <div class="input-group2">
+                <button id="btnCreate" type="submit">Crear</button>
+            </div>
+        </form>
+        <form action="">
+            <p>Editar tabla</p>
+            <div class="input-group2">
+                <label for="updateColumns">Celda</label>
+                <input type="number" id="updateColumns">
+            </div>
+            <div class="input-group2">
+                <label for="dato">Dato</label>
+                <input type="text" id="dato">
+            </div>
+            <div class="input-group2">
+                <button id="btnUpdate" type="submit">Actualizar</button>
+            </div>
+        </form>
+    </div>
+    <table id="tabla">
+        
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
