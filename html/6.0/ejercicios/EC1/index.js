@@ -22,7 +22,6 @@ let valueRow,
 
 let value;
 
-
 // get td From HTML
 let td,
     tr;
@@ -50,7 +49,6 @@ btnCreate.addEventListener('click', ()=> {
         }
     }
 
-
     tr = document.querySelectorAll('tr');
     td = document.querySelectorAll('tr td');
     console.log(rowsTable);
@@ -58,7 +56,6 @@ btnCreate.addEventListener('click', ()=> {
     for(let i=0; i<td.length; i++){
         td[i].innerHTML = i+1;
     }
-
 
 });
 
