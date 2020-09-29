@@ -922,3 +922,34 @@ span.value {
 .auto {
     margin: auto;
 }
+
+.movies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.movies .movie {
+    width: 200px;
+    transition: .4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.movies .movie:hover {
+    border: 1px solid grey;
+}
+
+.movies .movie:hover img {
+    transform: scale(1.05);
+}
+
+.movies .movie img {
+    transition: .4s;
+    width: 100%;
+}
+
+.detalles {
+    margin: auto;
+}

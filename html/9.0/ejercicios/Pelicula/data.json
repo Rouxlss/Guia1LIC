@@ -1,0 +1,23 @@
+{
+    "cine": "Cinepolis",
+    "peliculas": [
+        {
+            "titulo" : "Toy Story 2",
+            "sinopsis": "Andy se va de campamento y deja solos a sus juguetes. Entonces, Al McWhiggin, un compulsivo coleccionista de juguetes valiosos, encuentra a Woody y quiere quedárselo para su colección",
+            "director": "John Lasseter",
+            "protagonistas" : ["Woody", "Buzz", "Andy", "Al"]
+        },
+        {
+            "titulo" : "Transformers 5",
+            "sinopsis": "The Last Knight rompe la mitología básica de la saga Transformers y redefine el significado de ser un héroe.",
+            "director": "Michael Bay",
+            "protagonistas" : ["Optimus Prime", "Megatron", "Bumblebee", "Hotrod"]
+        },
+        {
+            "titulo" : "We are your friends",
+            "sinopsis": "Un aspirante a DJ se hace amigo de un colega veterano, pero la relación pende de un hilo cuando se enamora de su novia.",
+            "director": "Max Joseph",
+            "protagonistas" : ["Cole Carter", "Sophie", "James", "Dustin"]
+        }
+    ]
+}
