@@ -953,3 +953,16 @@ span.value {
 .detalles {
     margin: auto;
 }
+
+.menuPagina {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    background: rgb(2, 2, 104);
+}
+
+.menuPagina li {
+    color: white;
+    cursor: pointer;
+}
